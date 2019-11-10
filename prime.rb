@@ -1,9 +1,8 @@
 # Add  code here!
 require 'prime'
 def prime?(integer)
-integer = []
-integer.all?{|number| number == number.prime?}
-
-
+prime = true
+integer.each {|number| if number.prime?}
+  prime = false
 end
-
+end
