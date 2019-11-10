@@ -1,6 +1,6 @@
 # Add  code here!
 require 'prime'
 def prime?(integer)
-prime = []
-prime.any?{|number| number.prime?}
+integer = []
+integer.any?{|number| number.prime?}
 end
