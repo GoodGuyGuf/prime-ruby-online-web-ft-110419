@@ -1,6 +1,6 @@
 def prime?(integer)
-if true do
-  |number| number == number.prime?
+if true 
+  integer.any?|number| number == number.prime?
 else
   puts false
 end
