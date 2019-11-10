@@ -4,4 +4,3 @@ def prime?(integer)
 integer = []
 integer.any?{|number| ?}
 end
-
