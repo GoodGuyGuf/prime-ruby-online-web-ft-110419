@@ -3,3 +3,4 @@ Prime.each(200000) do |prime|
   p prime
   prime.all?
 end
+end
