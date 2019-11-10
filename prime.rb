@@ -2,5 +2,5 @@
 require 'prime'
 def prime?(integer)
 integer = []
-integer.collect{|number| number.prime?}
+integer.any?{|number| number.prime?}
 end
