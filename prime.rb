@@ -7,3 +7,4 @@ integer.all?{|number| number.prime?}
 else
   false
 end
+end
