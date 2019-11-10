@@ -1,4 +1,5 @@
 def prime?(integer)
-integer.all?(200000) do |prime| prime.any?
+integer = []
+integer.all?{|number| number == number.prime?}
 end
-end
+
