@@ -1,4 +1,4 @@
-def prime?(prime)
-Prime.each(200000) do |prime|
+def prime?(integer)
+integer.each(200000) do |prime| prime.any?
 end
 end
