@@ -1,4 +1,4 @@
 def prime?(integer)
 integer = []
-integer.any?{|number| number == number.prime?}
+integer.none?{|number| number == number.prime?}
 end
