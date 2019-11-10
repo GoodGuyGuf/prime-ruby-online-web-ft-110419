@@ -2,5 +2,6 @@
 require 'prime'
 def prime?(integer)
 integer = []
-integer.select?{|number| number.prime?}
+integer.any?{|number| number == number.prime?}
 end
+
