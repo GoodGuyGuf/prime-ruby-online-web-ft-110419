@@ -1,9 +1,9 @@
 # Add  code here!
 require 'prime'
 def prime?(integer)
-  prime = true
+prime = true
 integer = []
 integer.each do |number| if number.prime?
-prime = false
+else prime = false
 end
 end
