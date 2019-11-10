@@ -1,4 +1,4 @@
 def prime?
-prime.each(200000) do |prime|
+Prime.each(200000) do |prime|
   p primeend
   
