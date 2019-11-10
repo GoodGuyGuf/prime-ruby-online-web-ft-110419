@@ -5,6 +5,6 @@ integer = []
 if
 integer.all?{|number| number.prime?}
 else
-  false
+  integer.any?{|number| number.prime?}
 end
 end
