@@ -1,6 +1,10 @@
 # Add  code here!
 require 'prime'
 def prime?(integer)
+  prime = true
 integer = []
-integer.any?{|number| number.prime?}
+integer.each do |number| if number.prime?
+prime = false
 end
+end
+prime
