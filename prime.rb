@@ -7,3 +7,4 @@ integer.each do |number|
   prime = false
 end
 end
+end
