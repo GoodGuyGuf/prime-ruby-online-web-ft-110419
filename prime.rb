@@ -1,4 +1,8 @@
 def prime?(integer)
-integer = []
-integer.all?{|number| number == number.prime?}
+i = 0
+prime = []
+while i = integer.prime?
+  prime << yield(integer.prime?[])
+  i = i + 1
+end
 end
